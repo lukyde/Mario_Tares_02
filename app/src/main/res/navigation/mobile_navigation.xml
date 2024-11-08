@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/list_Fragment2">
+    <fragment
+        android:id="@+id/list_Fragment2"
+        android:name="dam.pmdm.tarea2RMLP.list_Fragment"
+        android:label="list_Fragment" />
+    <fragment
+        android:id="@+id/personajes3"
+        android:name="dam.pmdm.tarea2RMLP.PersonajesFragment"
+        android:label="personajes" />
+</navigation>

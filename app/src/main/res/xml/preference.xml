@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <EditTextPreference
+      android:title="@string/nombre_usuario"
+        android:dialogTitle="@string/introduce_usuario"
+        android:key="username"
+        />
+    <EditTextPreference
+        android:title="@string/contrasena"
+        android:dialogTitle="@string/introduce_contrasena"
+        android:key="userkey"/>
+</androidx.preference.PreferenceScreen>

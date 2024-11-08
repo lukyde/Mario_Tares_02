@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/list_Fragment">
+
+    <fragment
+        android:id="@+id/list_Fragment"
+        android:name="dam.pmdm.tarea2RMLP.list_Fragment"
+        android:label="list_Fragment" >
+        <action
+            android:id="@+id/action_list_Fragment_to_personajes2"
+            app:destination="@id/personajes2" />
+    </fragment>
+    <fragment
+        android:id="@+id/personajes2"
+        android:name="dam.pmdm.tarea2RMLP.PersonajesFragment"
+        android:label="personajes" />
+    <fragment
+        android:id="@+id/preferencesFragment"
+        android:name="dam.pmdm.tarea2RMLP.PreferencesFragment"
+        android:label="PreferencesFragment" />
+    <fragment
+        android:id="@+id/fragment_idioma"
+        android:name="dam.pmdm.tarea2RMLP.Fragment_idioma"
+        android:label="Fragment_idioma" />
+
+
+</navigation>

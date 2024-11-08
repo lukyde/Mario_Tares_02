@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mortadelo and Filemón</string>
+
+    <!-- Character Mortadelo -->
+    <string name="bacterio_Text">Bacterio</string>
+    <string name="descripcion_bacterio">He is a scientist of the T.I.A. Although he has demonstrated knowledge in all possible fields, his inventions have often failed.</string>
+    <string name="habilidades_bacterio">Skills: Create inventions that dont work </string>
+
+    <string name="boton_atras">Back</string>
+
+    <!-- Character Mortadelo -->
+    <string name="mortadelo_nombre">Mortadelo</string>
+    <string name="mortadelo_descripcion">An agent of the T.I.A. expert in disguises, capable of transforming into anything to solve cases.</string>
+    <string name="mortadelo_habilidades">Skills: Transform into anything</string>
+
+    <!-- Character Filemón -->
+    <string name="filemon_nombre">Filemón</string>
+    <string name="filemon_descripcion">The boss of Mortadelo at the T.I.A. Although he is a bit serious, he has to deal with the disasters caused by Mortadelo and Bacterio.</string>
+    <string name="filemon_habilidades">Skills: Maintain order in the T.I.A.</string>
+
+    <!-- Character Ofelia -->
+    <string name="ofelia_nombre">Ofelia</string>
+    <string name="ofelia_descripcion">Secretary of the T.I.A., known for her strong character and little patience with agents, especially Mortadelo and Filemón.</string>
+    <string name="ofelia_habilidades">Skills: Administrative management and limited patience</string>
+
+    <!-- Character Súper (Superintendent) -->
+    <string name="super_nombre">Super</string>
+    <string name="super_descripcion">The superintendent of the T.I.A., in charge of assigning missions to Mortadelo and Filemón. He always ends up exasperated by the disasters they cause.</string>
+    <string name="super_habilidades">Skills: Leadership in the T.I.A. and stress resistance</string>
+
+    <!-- Character Súperlópez -->
+    <string name="superlopez_nombre">Súperlópez</string>
+    <string name="superlopez_descripcion">A hero with superpowers like Superman, but clumsier and with everyday problems. He fights villains and faces absurd challenges.</string>
+    <string name="superlopez_habilidades">Skills: Strength, flight, X-ray vision, but with clumsiness and variable luck</string>
+
+    <!-- Character Rompetechos -->
+    <string name="rompetechos_nombre">Rompetechos</string>
+    <string name="rompetechos_descripcion">A small and extremely myopic man who always ends up in confusing and comical situations due to not seeing well what is in front of him.</string>
+    <string name="rompetechos_habilidades">Skills: Confusion and involuntary chaos due to his poor eyesight</string>
+
+    <!-- Anacleto -->
+    <string name="anacleto_Text">Anacleto</string>
+    <string name="descripcion_anacleto">He is a clumsy secret agent who always finds himself in comical and problematic situations. His incompetence often results in unexpected solutions.</string>
+    <string name="habilidades_anacleto">Skills: Ability to get into trouble, but always manages to get out of it.</string>
+
+    <!-- Toolbar labels -->
+    <string name="lista">CHARACTER LIST</string>
+
+    <!-- Menu title -->
+    <string name="menu">About</string>
+
+    <!-- TOASK -->
+    <string name="mensaje">The character has been selected </string>
+
+
+    <!-- Snackbar -->
+
+    <string name="snackbar">welcome to the world of comics</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- AJUSTES -->
+
+    <string name="ajustes">Setting</string>
+
+    <!-- IDIOMA -->
+
+    <string name="idioma">Languaje</string>
+
+
+
+
+
+
+    <!-- MENU LATERAL -->
+
+    <string name="abierto">Open</string>
+    <string name="cerrado" translatable="false">Close</string>
+    <string name="imagen_drawble">icon of the side menu</string>
+    <string name="titulo_drawable">title</string>
+
+
+    <!-- CAMBIO DE IDIOMA -->
+
+    <string name="idioma_camnio">Change the language of the app between English or Spanish.</string>
+
+
+    <!-- MENÚ PREFERENCIAS -->
+
+    <string name="nombre_usuario" >User</string>
+    <string name="introduce_usuario">Enter your username</string>
+    <string name="contrasena">password</string>
+    <string name="introduce_contrasena">Enter your password</string>
+    <string name="mensajeGuardado">Welcome </string>
+
+</resources>

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Mortadelo y Filemon</string>
+
+    <!-- Personaje Mortadelo -->
+
+
+    <string name="bacterio_Text">Bacterio</string>
+    <string name="descripcion_bacterio">Es un científico de la T.I.A. Aunque ha demostrado tener conocimientos acerca de todos los campos posibles, sus inventos han fallado en la mayoría de ocasiones.</string>
+    <string name="habilidades_bacterio">Habilidades: Crear inventos que no funcionan</string>
+    <string name="boton_atras">Atras</string>
+
+    <!-- Personaje Mortadelo -->
+    <string name="mortadelo_nombre">Mortadelo</string>
+    <string name="mortadelo_descripcion">Un agente de la T.I.A. experto en disfraces, capaz de transformarse en cualquier cosa para resolver casos.</string>
+    <string name="mortadelo_habilidades">Habilidades: Transformarse en cualquier cosa</string>
+
+    <!-- Personaje Filemón -->
+    <string name="filemon_nombre">Filemón</string>
+    <string name="filemon_descripcion">El jefe de Mortadelo en la T.I.A. A pesar de ser un poco serio, tiene que soportar los desastres que causan Mortadelo y Bacterio.</string>
+    <string name="filemon_habilidades">Habilidades: Mantener el orden en la T.I.A.</string>
+
+    <!-- Personaje Ofelia -->
+    <string name="ofelia_nombre">Ofelia</string>
+    <string name="ofelia_descripcion">Secretaria de la T.I.A., conocida por su fuerte carácter y poca paciencia con los agentes, especialmente Mortadelo y Filemón.</string>
+    <string name="ofelia_habilidades">Habilidades: Gestión administrativa y paciencia limitada</string>
+
+    <!-- Personaje Súper (Superintendente) -->
+    <string name="super_nombre">Súper</string>
+    <string name="super_descripcion">El superintendente de la T.I.A., encargado de asignar misiones a Mortadelo y Filemón. Siempre acaba exasperado por los desastres que causan.</string>
+    <string name="super_habilidades">Habilidades: Liderazgo en la T.I.A. y resistencia al estrés</string>
+
+    <!-- Personaje Súperlópez -->
+    <string name="superlopez_nombre">Súperlópez</string>
+    <string name="superlopez_descripcion">Un héroe con superpoderes al estilo Superman, pero más torpe y con problemas cotidianos. Lucha contra villanos y enfrenta desafíos absurdos.</string>
+    <string name="superlopez_habilidades">Habilidades: Fuerza, vuelo, visión de rayos X, pero con torpeza y suerte variable</string>
+
+    <!-- Personaje Rompetechos -->
+    <string name="rompetechos_nombre">Rompetechos</string>
+    <string name="rompetechos_descripcion">Un hombre pequeño y extremadamente miope que siempre acaba en situaciones confusas y cómicas por no ver bien lo que tiene delante.</string>
+    <string name="rompetechos_habilidades">Habilidades: Confusión y caos involuntario debido a su mala visión</string>
+
+    <!-- Anacleto -->
+    <string name="anacleto_Text">Anacleto</string>
+    <string name="descripcion_anacleto">Es un agente secreto torpe que siempre se encuentra en situaciones cómicas y problemáticas. Su incompetencia a menudo resulta en soluciones inesperadas.</string>
+    <string name="habilidades_anacleto">Habilidades: Capacidad para meterse en problemas, pero siempre logra salir de ellos.</string>
+
+
+    <!-- Etiquetas toolbar -->
+
+    <string name="lista">LISTA DE PERSONAJES</string>
+
+    <!-- TOASK -->
+
+    <string name="mensaje">Se ha seleccionado el personaje </string>
+
+    <!-- Titulo menu -->
+
+    <string name="menu">Acerca de</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Snackbar -->
+
+    <string name="snackbar">Bienvenidos al mundo del tebéo</string>
+
+
+    <!-- AJUSTES -->
+
+    <string name="ajustes">Ajustes</string>
+
+    <!-- IDIOMA -->
+
+    <string name="idioma">Idioma</string>
+
+    <!-- MENU LATERAL -->
+
+    <string name="abierto">Open</string>
+    <string name="cerrado" translatable="false">Close</string>
+    <string name="imagen_drawble">icon of the side menu</string>
+    <string name="titulo_drawable">title</string>
+
+
+    <!-- CAMBIO DE IDIOMA -->
+
+    <string name="idioma_camnio">Change the language of the app between English or Spanish.</string>
+
+
+    <!-- MENÚ PREFERENCIAS -->
+
+    <string name="nombre_usuario" >User</string>
+    <string name="introduce_usuario">Enter your username</string>
+    <string name="contrasena">password</string>
+    <string name="introduce_contrasena">Enter your password</string>
+    <string name="mensajeGuardado">Welcome </string>
+
+</resources>
