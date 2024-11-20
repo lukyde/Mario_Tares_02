@@ -5,14 +5,14 @@ package dam.pmdm.tarea2RMLP;
  *
  */
 
-public class Mortadelo {
+public class Mario {
 
     private int imagen;
     private String nombre;
     private String descripcion;
     private String habilidades;
 
-   public Mortadelo(int imagen, String nombre, String descripcion,String habilidades){
+   public Mario(int imagen, String nombre, String descripcion, String habilidades){
       this.nombre = nombre;
       this.imagen = imagen;
       this.descripcion= descripcion;

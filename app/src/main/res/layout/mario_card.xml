@@ -4,8 +4,8 @@
 
     <data>
         <variable
-            name="mortadelo"
-            type="dam.pmdm.tarea2RMLP.Mortadelo" />
+            name="mario"
+            type="dam.pmdm.tarea2RMLP.Mario" />
 
 
     </data>
@@ -31,7 +31,7 @@
                 android:id="@+id/imagen"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/bacterio"
+                android:src="@drawable/mario"
                 >
 
 
@@ -47,7 +47,7 @@
                     android:id="@+id/texto"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Bacterio"
+                    android:text="@string/mario_nombre"
                     style="@style/text_name"
                     android:gravity="center"
                     android:padding="20dp"

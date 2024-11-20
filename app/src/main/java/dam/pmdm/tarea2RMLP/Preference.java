@@ -2,6 +2,7 @@ package dam.pmdm.tarea2RMLP;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.widget.Switch;
 
 /**
  * La clase Preference proporciona métodos para guardar y recuperar preferencias
@@ -14,6 +15,7 @@ public class Preference {
     private static final String PREFS_NAME = "app_prefs";
     private static final String KEY_USERNAME = "username";
     private static final String KEY_KEY = "password";
+
 
     /**
      * Obtiene el nombre de usuario almacenado en SharedPreferences.
@@ -86,4 +88,5 @@ public class Preference {
 
 
     }
+
 }

@@ -11,9 +11,9 @@
     <ImageView
 
         android:id="@+id/imagen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/bacterio"
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:src="@drawable/mario"
         >
 
 
@@ -25,21 +25,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="40sp"
-        android:text="@string/bacterio_Text"
+        android:text="@string/mario_nombre"
         app:layout_constraintTop_toTopOf="@id/imagen"
         style="@style/text_name" />
     <TextView
         android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/descripcion_bacterio"
+        android:text="@string/mario_descripcion"
         style="@style/text_style"
         android:layout_marginTop="8sp"/>
     <TextView
         android:id="@+id/habilidades"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/habilidades_bacterio"
+        android:text="@string/mario_habilidades"
         style="@style/text_style"
         android:layout_marginTop="15sp"/>
 </LinearLayout>

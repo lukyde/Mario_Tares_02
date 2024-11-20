@@ -4,10 +4,10 @@
     <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
 
 
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ibanez</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/icono</item>
         <item name="android:windowSplashScreenBackground">@color/card_color</item>
         <item name="android:windowSplashScreenIconBackgroundColor">@color/black</item>
-        <item name="android:windowSplashScreenAnimationDuration">300</item>
+        <item name="android:windowSplashScreenAnimationDuration">700</item>
 
     </style>
 </resources>

@@ -1,11 +1,7 @@
 package dam.pmdm.tarea2RMLP;
 
-import static dam.pmdm.tarea2RMLP.BR.mortadelo;
-
-import android.annotation.SuppressLint;
 import android.content.SharedPreferences;
 import android.view.ContextMenu;
-import android.view.Menu;
 import android.view.MenuInflater;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -13,24 +9,19 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 import androidx.activity.EdgeToEdge;
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.FragmentManager;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import androidx.preference.PreferenceManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
+
 import dam.pmdm.tarea2RMLP.databinding.ActivityMainBinding;
 import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.navigation.ui.NavigationUI;
+
 /**
  *La clase principal donde se gentiona la vista principal de la app
  *
@@ -132,18 +123,18 @@ public class MainActivity extends AppCompatActivity {
     /**
      *Método que gestiona cuando el usuario hace click en un personaje , llevando a este a la pantalla detalle
      *Imprime en pantalla un mensaje que muestra el personaje elegido
-     * @param mortadelo recibe un objeto de tipo mortadelo en el cual esta las características de los personajes que se visualizarán
+     * @param mario recibe un objeto de tipo mortadelo en el cual esta las características de los personajes que se visualizarán
      * @param view parametro para pasarle la vista.
      */
 
-    public void mortadeloClicked(Mortadelo mortadelo, View view){
+    public void marioClicked(Mario mario, View view){
 
         Bundle bundle = new Bundle();
 
-        bundle.putString("nombre", mortadelo.getNombre());
-        bundle.putInt("imagen", mortadelo.getImagen());
-        bundle.putString("descripcion", mortadelo.getDescripcion());
-        bundle.putString("habilidades", mortadelo.getHabilidades());
+        bundle.putString("nombre", mario.getNombre());
+        bundle.putInt("imagen", mario.getImagen());
+        bundle.putString("descripcion", mario.getDescripcion());
+        bundle.putString("habilidades", mario.getHabilidades());
 
 
         Navigation.findNavController(view).navigate(R.id.action_list_Fragment_to_personajes2, bundle);
@@ -179,8 +170,6 @@ public class MainActivity extends AppCompatActivity {
                 navController.navigate(R.id.list_Fragment); // Navegar al fragmento de inicio
             }else if(menuItem.getItemId() == R.id.nav_ajustes){
                 navController.navigate(R.id.preferencesFragment);
-            }else if(menuItem.getItemId() == R.id.nav_idioma){
-                navController.navigate(R.id.fragment_idioma);
             }
             binding.drawerLayout.closeDrawers(); // Cerrar el menú
             return true;

@@ -1,48 +1,44 @@
 <resources>
-    <string name="app_name">Mortadelo y Filemon</string>
+    <string name="app_name">Mario</string>
 
-    <!-- Personaje Mortadelo -->
+    <!-- Personaje Mario -->
+
+    <string name="mario_nombre">Mario</string>
+    <string name="mario_descripcion">Un fontanero valiente y bondadoso que siempre está listo para salvar el Reino Champiñón y rescatar a la princesa Peach de las garras de Bowser.</string>
+    <string name="mario_habilidades">Habilidades: Salto, lanzar bolas de fuego, transformarse usando power-ups</string>
+
+    <!-- Personaje Luigi -->
+
+    <string name="luigi_nombre">Luigi</string>
+    <string name="luigi_descripcion">El hermano menor de Mario, un poco tímido pero igualmente valiente. A menudo lo acompaña en sus aventuras, y a veces protagoniza sus propias misiones.</string>
+    <string name="luigi_habilidades">Habilidades: Salto más alto, caza fantasmas con la aspiradora Poltergust</string>
+
+    <!-- Personaje Peach -->
+
+    <string name="peach_nombre">Princesa Peach</string>
+    <string name="peach_descripcion">La regente del Reino Champiñón, conocida por su amabilidad y valentía. Aunque suele ser capturada por Bowser, no duda en enfrentarse al peligro si es necesario.</string>
+    <string name="peach_habilidades">Habilidades: Flotar en el aire, usar habilidades mágicas en ocasiones</string>
+
+    <!-- Personaje Bowser -->
+
+    <string name="bowser_nombre">Bowser</string>
+    <string name="bowser_descripcion">El rey de los Koopas y el principal antagonista de Mario. Aunque es un villano temible, a veces muestra un lado más cómico y hasta colaborativo.</string>
+    <string name="bowser_habilidades">Habilidades: Lanzar fuego, fuerza sobrehumana, resistencia</string>
+
+    <!-- Personaje Toad -->
+
+    <string name="toad_nombre">Toad</string>
+    <string name="toad_descripcion">Un fiel asistente de la princesa Peach y habitante del Reino Champiñón. Siempre está dispuesto a ayudar a Mario y sus amigos en sus aventuras.</string>
+    <string name="toad_habilidades">Habilidades: Velocidad, conocimiento sobre el Reino Champiñón</string>
+
+    <!-- Personaje Yoshi -->
+
+    <string name="yoshi_nombre">Yoshi</string>
+    <string name="yoshi_descripcion">Un dinosaurio amigable y leal que ayuda a Mario y Luigi en sus aventuras. Es conocido por su gran apetito y habilidad para usar su lengua de manera única.</string>
+    <string name="yoshi_habilidades">Habilidades: Comer enemigos, lanzar huevos, salto flotante</string>
 
 
-    <string name="bacterio_Text">Bacterio</string>
-    <string name="descripcion_bacterio">Es un científico de la T.I.A. Aunque ha demostrado tener conocimientos acerca de todos los campos posibles, sus inventos han fallado en la mayoría de ocasiones.</string>
-    <string name="habilidades_bacterio">Habilidades: Crear inventos que no funcionan</string>
-    <string name="boton_atras">Atras</string>
 
-    <!-- Personaje Mortadelo -->
-    <string name="mortadelo_nombre">Mortadelo</string>
-    <string name="mortadelo_descripcion">Un agente de la T.I.A. experto en disfraces, capaz de transformarse en cualquier cosa para resolver casos.</string>
-    <string name="mortadelo_habilidades">Habilidades: Transformarse en cualquier cosa</string>
-
-    <!-- Personaje Filemón -->
-    <string name="filemon_nombre">Filemón</string>
-    <string name="filemon_descripcion">El jefe de Mortadelo en la T.I.A. A pesar de ser un poco serio, tiene que soportar los desastres que causan Mortadelo y Bacterio.</string>
-    <string name="filemon_habilidades">Habilidades: Mantener el orden en la T.I.A.</string>
-
-    <!-- Personaje Ofelia -->
-    <string name="ofelia_nombre">Ofelia</string>
-    <string name="ofelia_descripcion">Secretaria de la T.I.A., conocida por su fuerte carácter y poca paciencia con los agentes, especialmente Mortadelo y Filemón.</string>
-    <string name="ofelia_habilidades">Habilidades: Gestión administrativa y paciencia limitada</string>
-
-    <!-- Personaje Súper (Superintendente) -->
-    <string name="super_nombre">Súper</string>
-    <string name="super_descripcion">El superintendente de la T.I.A., encargado de asignar misiones a Mortadelo y Filemón. Siempre acaba exasperado por los desastres que causan.</string>
-    <string name="super_habilidades">Habilidades: Liderazgo en la T.I.A. y resistencia al estrés</string>
-
-    <!-- Personaje Súperlópez -->
-    <string name="superlopez_nombre">Súperlópez</string>
-    <string name="superlopez_descripcion">Un héroe con superpoderes al estilo Superman, pero más torpe y con problemas cotidianos. Lucha contra villanos y enfrenta desafíos absurdos.</string>
-    <string name="superlopez_habilidades">Habilidades: Fuerza, vuelo, visión de rayos X, pero con torpeza y suerte variable</string>
-
-    <!-- Personaje Rompetechos -->
-    <string name="rompetechos_nombre">Rompetechos</string>
-    <string name="rompetechos_descripcion">Un hombre pequeño y extremadamente miope que siempre acaba en situaciones confusas y cómicas por no ver bien lo que tiene delante.</string>
-    <string name="rompetechos_habilidades">Habilidades: Confusión y caos involuntario debido a su mala visión</string>
-
-    <!-- Anacleto -->
-    <string name="anacleto_Text">Anacleto</string>
-    <string name="descripcion_anacleto">Es un agente secreto torpe que siempre se encuentra en situaciones cómicas y problemáticas. Su incompetencia a menudo resulta en soluciones inesperadas.</string>
-    <string name="habilidades_anacleto">Habilidades: Capacidad para meterse en problemas, pero siempre logra salir de ellos.</string>
 
 
     <!-- Etiquetas toolbar -->
@@ -61,7 +57,7 @@
 
     <!-- Snackbar -->
 
-    <string name="snackbar">Bienvenidos al mundo del tebéo</string>
+    <string name="snackbar">Bienvenidos al mundo de Mario</string>
 
 
     <!-- AJUSTES -->
@@ -82,7 +78,9 @@
 
     <!-- CAMBIO DE IDIOMA -->
 
-    <string name="idioma_camnio">Change the language of the app between English or Spanish.</string>
+    <string name="idioma_camnio">Cambio de idioma.</string>
+    <string name="switch_on">Ingles</string>
+    <string name="switch_off">Español</string>
 
 
     <!-- MENÚ PREFERENCIAS -->

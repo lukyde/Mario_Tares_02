@@ -10,27 +10,25 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
 
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-<androidx.appcompat.widget.Toolbar
+    android:layout_height="match_parent">
 
-    android:id="@+id/toolbar"
-    android:layout_width="match_parent"
-    android:layout_height="?attr/actionBarSize"
-    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-    android:background="@color/card_color">
+    <androidx.appcompat.widget.Toolbar
 
-
-
-    <ImageButton
-        android:id="@+id/contex_imagen"
-
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:layout_width="wrap_content"
-        android:layout_gravity="end"
-        android:contentDescription="TODO"
-        android:src="@drawable/descarga"
-        />
+        android:background="@color/card_color"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+
+        <ImageButton
+            android:id="@+id/contex_imagen"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+             android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/lateral"
+            android:contentDescription="TODO"
+            android:src="@drawable/lateral" />
 
 
     </androidx.appcompat.widget.Toolbar>

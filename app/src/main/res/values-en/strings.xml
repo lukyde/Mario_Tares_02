@@ -1,48 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mortadelo and Filemón</string>
+    <string name="app_name">Mario </string>
 
-    <!-- Character Mortadelo -->
-    <string name="bacterio_Text">Bacterio</string>
-    <string name="descripcion_bacterio">He is a scientist of the T.I.A. Although he has demonstrated knowledge in all possible fields, his inventions have often failed.</string>
-    <string name="habilidades_bacterio">Skills: Create inventions that dont work </string>
+    <!-- Character Mario -->
 
-    <string name="boton_atras">Back</string>
+    <string name="mario_nombre">Mario</string>
+    <string name="mario_descripcion">A brave and kind-hearted plumber always ready to save the Mushroom Kingdom and rescue Princess Peach from Bowser is clutches.</string>
+    <string name="mario_habilidades">Skills: Jumping, throwing fireballs, transforming with power-ups</string>
 
-    <!-- Character Mortadelo -->
-    <string name="mortadelo_nombre">Mortadelo</string>
-    <string name="mortadelo_descripcion">An agent of the T.I.A. expert in disguises, capable of transforming into anything to solve cases.</string>
-    <string name="mortadelo_habilidades">Skills: Transform into anything</string>
+    <!-- Personaje Luigi -->
 
-    <!-- Character Filemón -->
-    <string name="filemon_nombre">Filemón</string>
-    <string name="filemon_descripcion">The boss of Mortadelo at the T.I.A. Although he is a bit serious, he has to deal with the disasters caused by Mortadelo and Bacterio.</string>
-    <string name="filemon_habilidades">Skills: Maintain order in the T.I.A.</string>
+    <string name="luigi_nombre">Luigi</string>
+    <string name="luigi_descripcion">Mario is younger brother, a bit shy but equally courageous. He often joins Mario on his adventures and occasionally stars in his own missions.</string>
+    <string name="luigi_habilidades">Skills: Higher jumps, ghost hunting with the Poltergust vacuum</string>
 
-    <!-- Character Ofelia -->
-    <string name="ofelia_nombre">Ofelia</string>
-    <string name="ofelia_descripcion">Secretary of the T.I.A., known for her strong character and little patience with agents, especially Mortadelo and Filemón.</string>
-    <string name="ofelia_habilidades">Skills: Administrative management and limited patience</string>
+    <!-- Personaje Peach -->
 
-    <!-- Character Súper (Superintendent) -->
-    <string name="super_nombre">Super</string>
-    <string name="super_descripcion">The superintendent of the T.I.A., in charge of assigning missions to Mortadelo and Filemón. He always ends up exasperated by the disasters they cause.</string>
-    <string name="super_habilidades">Skills: Leadership in the T.I.A. and stress resistance</string>
+    <string name="peach_nombre">Princes Peach</string>
+    <string name="peach_descripcion">The ruler of the Mushroom Kingdom, known for her kindness and bravery. While often captured by Bowser, she doesnt hesitate to face danger when needed.</string>
+    <string name="peach_habilidades">Skills: Floating in the air, occasional magical abilities</string>
 
-    <!-- Character Súperlópez -->
-    <string name="superlopez_nombre">Súperlópez</string>
-    <string name="superlopez_descripcion">A hero with superpowers like Superman, but clumsier and with everyday problems. He fights villains and faces absurd challenges.</string>
-    <string name="superlopez_habilidades">Skills: Strength, flight, X-ray vision, but with clumsiness and variable luck</string>
+    <!-- Personaje Bowser -->
 
-    <!-- Character Rompetechos -->
-    <string name="rompetechos_nombre">Rompetechos</string>
-    <string name="rompetechos_descripcion">A small and extremely myopic man who always ends up in confusing and comical situations due to not seeing well what is in front of him.</string>
-    <string name="rompetechos_habilidades">Skills: Confusion and involuntary chaos due to his poor eyesight</string>
+    <string name="bowser_nombre">Bowser</string>
+    <string name="bowser_descripcion">The King of the Koopas and Mario is main antagonist. Despite being a fearsome villain, he sometimes shows a comedic and even cooperative side.</string>
+    <string name="bowser_habilidades">Skills: Breathing fire, superhuman strength, endurance</string>
 
-    <!-- Anacleto -->
-    <string name="anacleto_Text">Anacleto</string>
-    <string name="descripcion_anacleto">He is a clumsy secret agent who always finds himself in comical and problematic situations. His incompetence often results in unexpected solutions.</string>
-    <string name="habilidades_anacleto">Skills: Ability to get into trouble, but always manages to get out of it.</string>
+    <!-- Personaje Toad -->
+
+    <string name="toad_nombre">Toad</string>
+    <string name="toad_descripcion">A loyal assistant to Princess Peach and a resident of the Mushroom Kingdom. He is always ready to help Mario and his friends on their adventures.</string>
+    <string name="toad_habilidades">Skills: Speed, knowledge of the Mushroom Kingdom</string>
+
+    <!-- Personaje Yoshi -->
+
+    <string name="yoshi_nombre">Yoshi</string>
+    <string name="yoshi_descripcion">A friendly and loyal dinosaur who helps Mario and Luigi on their adventures. Known for his big appetite and unique tongue abilities.</string>
+    <string name="yoshi_habilidades">Skills: Eating enemies, throwing eggs, flutter jumps</string>
+
+
 
     <!-- Toolbar labels -->
     <string name="lista">CHARACTER LIST</string>
@@ -56,7 +52,7 @@
 
     <!-- Snackbar -->
 
-    <string name="snackbar">welcome to the world of comics</string>
+    <string name="snackbar">welcome to the world of Mario</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
@@ -69,7 +65,8 @@
 
     <string name="idioma">Languaje</string>
 
-
+    <string name="switch_on">English</string>
+    <string name="switch_off">Spanish</string>
 
 
 
@@ -84,7 +81,7 @@
 
     <!-- CAMBIO DE IDIOMA -->
 
-    <string name="idioma_camnio">Change the language of the app between English or Spanish.</string>
+    <string name="idioma_camnio">Change the language.</string>
 
 
     <!-- MENÚ PREFERENCIAS -->

@@ -19,8 +19,8 @@ import java.util.ArrayList;
 
 public class list_Fragment extends Fragment {
 
-    private ArrayList<Mortadelo> mortadelos;
-    private MortadeloRecyclerViewAdapter adapter;
+    private ArrayList<Mario> marios;
+    private MarioRecyclerViewAdapter adapter;
     private FragmentListBinding binding;
 
     /**
@@ -48,9 +48,9 @@ public class list_Fragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        loadMortadelo();
+        loadMario();
         Snackbar.make(view, getString(R.string.snackbar), Snackbar.LENGTH_SHORT) .show();
-        adapter = new MortadeloRecyclerViewAdapter(mortadelos, getActivity());
+        adapter = new MarioRecyclerViewAdapter(marios, getActivity());
         binding.mortdeloRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         binding.mortdeloRecyclerView.setAdapter(adapter);
 
@@ -66,45 +66,41 @@ public class list_Fragment extends Fragment {
      */
 
 
-    private void loadMortadelo(){
-            mortadelos = new ArrayList<>();
+    private void loadMario(){
+            marios = new ArrayList<>();
 
-        mortadelos.add(new Mortadelo ( R.drawable.bacterio,
-                getString(R.string.bacterio_Text),
-                getString(R.string.descripcion_bacterio),
-                getString(R.string.habilidades_bacterio)
+        marios.add(new Mario( R.drawable.mario,
+                getString(R.string.mario_nombre),
+                getString(R.string.mario_descripcion),
+                getString(R.string.mario_habilidades)
         ));
 
-        mortadelos.add(new Mortadelo(R.drawable.mortadelo,
-                getString(R.string.mortadelo_nombre),
-                getString(R.string.mortadelo_descripcion),
-                getString(R.string.mortadelo_habilidades)
+        marios.add(new Mario(R.drawable.luigi,
+                getString(R.string.luigi_nombre),
+                getString(R.string.luigi_descripcion),
+                getString(R.string.luigi_habilidades)
         ));
-        mortadelos.add(new Mortadelo(R.drawable.filemon,
-                getString(R.string.filemon_nombre),
-                getString(R.string.filemon_descripcion),
-                getString(R.string.filemon_habilidades)
+        marios.add(new Mario(R.drawable.peach,
+                getString(R.string.peach_nombre),
+                getString(R.string.peach_descripcion),
+                getString(R.string.peach_habilidades)
         ));
-        mortadelos.add(new Mortadelo(R.drawable.superintendente,
-                getString(R.string.super_nombre),
-                getString(R.string.super_descripcion),
-                getString(R.string.super_habilidades)
+        marios.add(new Mario(R.drawable.bowser,
+                getString(R.string.bowser_nombre),
+                getString(R.string.bowser_descripcion),
+                getString(R.string.bowser_habilidades)
         ));
-        mortadelos.add(new Mortadelo(R.drawable.ofelia,
-                getString(R.string.ofelia_nombre),
-                getString(R.string.ofelia_descripcion),
-                getString(R.string.ofelia_habilidades)
+        marios.add(new Mario(R.drawable.toad,
+                getString(R.string.toad_nombre),
+                getString(R.string.toad_descripcion),
+                getString(R.string.toad_habilidades)
         ));
-        mortadelos.add(new Mortadelo(R.drawable.superlopez,
-                getString(R.string.superlopez_nombre),
-                getString(R.string.superlopez_descripcion),
-                getString(R.string.superlopez_habilidades)
+        marios.add(new Mario(R.drawable.yoshi,
+                getString(R.string.yoshi_nombre),
+                getString(R.string.yoshi_descripcion),
+                getString(R.string.yoshi_habilidades)
         ));
-        mortadelos.add(new Mortadelo(R.drawable.anacleto,
-                getString(R.string.anacleto_Text),
-                getString(R.string.descripcion_anacleto),
-                getString(R.string.habilidades_anacleto)
-        ));
+
 
 
 

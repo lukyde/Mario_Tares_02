@@ -20,10 +20,6 @@
         android:id="@+id/preferencesFragment"
         android:name="dam.pmdm.tarea2RMLP.PreferencesFragment"
         android:label="PreferencesFragment" />
-    <fragment
-        android:id="@+id/fragment_idioma"
-        android:name="dam.pmdm.tarea2RMLP.Fragment_idioma"
-        android:label="Fragment_idioma" />
 
 
 </navigation>
