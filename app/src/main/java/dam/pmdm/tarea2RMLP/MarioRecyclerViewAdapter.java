@@ -21,7 +21,7 @@ public class MarioRecyclerViewAdapter extends RecyclerView.Adapter<MarioViewHold
 
     /**
      * Constructor que inicializa el adaptador con la lista de personajes y el contexto.
-     * @param mario Lista de objetos Mortadelo que serán mostrados en el RecyclerView.
+     * @param mario Lista de objetos Mario que serán mostrados en el RecyclerView.
      * @param context El contexto de la actividad donde se mostrará el RecyclerView.
      */
     public MarioRecyclerViewAdapter(ArrayList<Mario> mario, Context context){
