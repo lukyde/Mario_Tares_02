@@ -6,7 +6,7 @@ import com.squareup.picasso.Picasso;
 
 import dam.pmdm.tarea2RMLP.databinding.MarioCardBinding;
 /**
- *ViewHolder para el adaptador de RecyclerView que representa un elemento de la lista de Mortadelo.
+ *ViewHolder para el adaptador de RecyclerView que representa un elemento de la lista de Mario.
  */
 
 public class MarioViewHolder extends RecyclerView.ViewHolder {
@@ -21,7 +21,7 @@ public class MarioViewHolder extends RecyclerView.ViewHolder {
         this.binding= binding;
     }
     /**
-     *Método que introduce los datos del objeto mortadelo en las vistas de la tarjeta.
+     *Método que introduce los datos del objeto mario en las vistas de la tarjeta.
      *
      * @param mario objeto del tipo mortadelo donde se encuentran los datos de las tarjetas; el nombre y la imagen.
      */
