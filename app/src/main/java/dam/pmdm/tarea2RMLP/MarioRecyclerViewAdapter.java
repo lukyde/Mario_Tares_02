@@ -48,11 +48,11 @@ public class MarioRecyclerViewAdapter extends RecyclerView.Adapter<MarioViewHold
     }
 
     /**
-     * Enlaza los datos de un objeto Mortadelo con el ViewHolder.
+     * Enlaza los datos de un objeto Mario con el ViewHolder.
      * También configura el click listener para manejar eventos de click en el item.
      *
      * @param holder El ViewHolder que contiene la vista del elemento.
-     * @param position La posición del elemento en la lista de mortadelos.
+     * @param position La posición del elemento en la lista de marios.
      */
 
     @Override
@@ -67,7 +67,7 @@ public class MarioRecyclerViewAdapter extends RecyclerView.Adapter<MarioViewHold
     }
     /**
      *Método para obtener la cantidad de holder que hay.
-     * @return devuelve un entero con la cantidad de mortadelos.
+     * @return devuelve un entero con la cantidad de marios.
      */
 
     @Override
@@ -79,7 +79,7 @@ public class MarioRecyclerViewAdapter extends RecyclerView.Adapter<MarioViewHold
     /**
      * Método que se ejecuta cuando se hace click en un elemento.
      *
-     * @param currentMario El objeto Mortadelo que ha sido clicado.
+     * @param currentMario El objeto Mario que ha sido clicado.
      * @param view La vista donde se ha realizado el clic.
      */
     public void itemClicked(Mario currentMario, View view){
