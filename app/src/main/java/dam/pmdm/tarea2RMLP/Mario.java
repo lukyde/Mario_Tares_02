@@ -1,7 +1,7 @@
 package dam.pmdm.tarea2RMLP;
 
 /**
- *Clase que crea objetos de tipo mortadelo, que son los personajes que apareceran en la app
+ *Clase que crea objetos de tipo mario, que son los personajes que apareceran en la app
  *
  */
 
